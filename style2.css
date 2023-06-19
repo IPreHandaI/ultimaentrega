@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #5D1499;
+    height: 7vw;
+}
+
+.logo{
+    width: 50%;
+    float: left;
+}
+
+#logo{
+    width: 5vw;
+    margin: 0.7vw;
+}
+
+.button{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+#button{
+    background-color: #FFBA11;
+    width: 10vw;
+    padding: 1vw;
+    border-radius: 10vw;
+    border: none; 
+    margin: 1.5vw;
+    font-size: 1.5vw;
+    transition: 0.5s;
+}
+
+#button:hover{
+    background-color: rgb(56, 0, 70);
+    color: white;
+    cursor: pointer;
+}
+
+#banner{
+    width: 100%;
+}
+
+#quadrado{
+    width: 95%;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 1vw 0.5vw 0.5vw rgb(217, 217, 217);
+    margin: 1vw auto;
+    display: flex;
+    padding: 3vw;
+    justify-content: space-between;
+}
+
+#quadrado2{
+    width: 60%;
+    height: 35vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#nome,
+#cpf,
+#quantidade,
+#lugarOnibus,
+#formaPagamento,
+#parcelamento{
+    width: 50%;
+    height: 3vw;
+    margin: 1vw;
+    padding: 0 0 0 2vw;
+    background-color: #e8e8e8;
+    border: none;
+    border-radius: 3vw;
+}
+
+.destino{
+    margin: 3vw 0 0 3vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    border: none;
+    transition: 0.5s;
+}
+
+#quadrado3{
+    width: 40%;
+    height: 35vw;
+}
+
+#datas{
+    margin: 5vw 0 0 3vw;
+}
+
+#enviar{
+    width: 50%;
+    height: 5vw;
+    border-radius: 3vw;
+    border: none;
+    margin: 0 0 0 10vw;
+    transition: 0.3s;
+    background-color: #FFBA11;
+}
+
+#enviar:hover{
+    background-color: #8e8e8e;
+}
